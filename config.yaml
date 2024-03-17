@@ -1,11 +1,14 @@
-language: deu
+language: eng
 # for list of languages see: https://github.com/tesseract-ocr/tessdata
-save_data: False
+save_data: True
 # Only does something when save_data is True
-save_location: ~/
+save_location: /
 
-use_clipboard_for_input: True
+use_clipboard_for_input: False
 # if false then all pictures in path_to_directory get translated ... THIS CANT BE FALSE IF SAVE_DATA IS TRUE
 
-path_to_directory: ~/
-print_result: True
+path_to_directory: samples
+print_result: False
+max_size: 1024
+resolution_x: 120
+resolution_y: 120
